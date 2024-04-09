@@ -1,0 +1,1776 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "none",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "0738fb8a-256a-4457-bcc2-2a7931fdcf80",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "rollerpony-game-v2",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 768,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/RollerponyFloor_Final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RollerponyFloor_Final.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_sprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_sprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player_sprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player_sprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Ninja.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Ninja.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Colorful Monsters/Blob/f04621c7ae1fbafef332c3023d99b7d46a2aa7f8a414918bb4b33bc2c9748359_Ninja.glb",
+          "name": "Ninja.glb"
+        }
+      },
+      {
+        "file": "assets/Road Crossing.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Road Crossing.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D City Kit (Roads)/Ground/f779655df69ebcabbcc9ee5bc194376ae12f60851ba76108644db935665a2d19_Road Crossing.glb",
+          "name": "Road Crossing.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_idle down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_idle down.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/5d569e586628c927048fde5a05857f93fd72a96ad5e974508a78660594eaf03f_Player_idle down.png",
+          "name": "Player_idle down.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_idle left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_idle left.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/b013a186d851fd578026051e1585fb3983e0cb2640812feb5d53429260f00512_Player_idle left.png",
+          "name": "Player_idle left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_idle right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_idle right.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/dc591e58f1d877bb590c665abc11085f6ba6a9b3f23b58c9b9c41f05cb292ad6_Player_idle right.png",
+          "name": "Player_idle right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_idle up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_idle up.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/fa9cec47e031e17388c11e0ea1edc38df64ff4c9905bea4ab649db78ca7e6fc0_Player_idle up.png",
+          "name": "Player_idle up.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined idle down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined idle down_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/beb7747891f3ae0d97f6c6ab1eadd404349cd3a97c6bb3d65a0e52c44b49f7bd_Player_outlined idle down_1.png",
+          "name": "Player_outlined idle down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined idle left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined idle left_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/5520faf630ba83453ae5555dba4910efb8639cca82d37b67cd0e5d5d7c0da71f_Player_outlined idle left_1.png",
+          "name": "Player_outlined idle left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined idle right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined idle right_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/a3549d6201ce87ddaf29e7f44cde15758e6a70419fe6e24c9076e3c9afab6d5d_Player_outlined idle right_1.png",
+          "name": "Player_outlined idle right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined idle up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined idle up_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/3bec0473110c32f55e16b6436b7c46c04e6002829b75ab015330f1234562bfeb_Player_outlined idle up_1.png",
+          "name": "Player_outlined idle up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk down_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk down_1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/e16ee164cabb3937a440589a3199afa37e66d771dae4e4ef041553d7e20f3dda_Player_outlined walk down_1_1.png",
+          "name": "Player_outlined walk down_1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk down_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk down_2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/a0283be70d3704165e33413c04e12de5406bc91c15a1732d9228a41fe42ff7ed_Player_outlined walk down_2_1.png",
+          "name": "Player_outlined walk down_2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk left_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk left_1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/96b5905cfaab254334126f6e720df2e3d7e8b3759d01e8b37f034fe902a7e5da_Player_outlined walk left_1_1.png",
+          "name": "Player_outlined walk left_1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk left_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk left_2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/af35ee6dce6b7c3af846e0405f26c4829528fbca30f75a49a047e94a5faa39d7_Player_outlined walk left_2_1.png",
+          "name": "Player_outlined walk left_2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk right_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk right_1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/839031b97a3a5a529c368ef919af01978e2f62c6a6074837386567dc551cc648_Player_outlined walk right_1_1.png",
+          "name": "Player_outlined walk right_1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk right_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk right_2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/4da7846d12467b24a35732e21cccb2e782968ed7b7af3675704928b974e32423_Player_outlined walk right_2_1.png",
+          "name": "Player_outlined walk right_2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk up_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk up_1_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/93473aa5ce4bcbf6a0261cce0e161df5671d8ee99c8bc189c7fe833ab535b01a_Player_outlined walk up_1_1.png",
+          "name": "Player_outlined walk up_1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_outlined walk up_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_outlined walk up_2_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/3f63b313cc1bd3e4fcfbc9dbf0c57325e275fe3dabb83514ebc2375752ce0cc5_Player_outlined walk up_2_1.png",
+          "name": "Player_outlined walk up_2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk down_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/3f1471a4e053c472e54e7202af99bc9f48e9d5c71a19a2fa0db65cab94aedab8_Player_walk down_1.png",
+          "name": "Player_walk down_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk down_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/9d7090aad13161e47f2eb8d406e503d81364b7a58e04d4e327f70a047feffb77_Player_walk down_2.png",
+          "name": "Player_walk down_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk left_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/0a7157ffc8374de202a107c1078d22b55a08e6b463664cffbdcd6418c2f20ab5_Player_walk left_1.png",
+          "name": "Player_walk left_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk left_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/aa3fc35b9eb9be368988782ff1d9cb1e31d27842fb8e8ac3e9f00b197029f497_Player_walk left_2.png",
+          "name": "Player_walk left_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk right_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/3de8c9cad90ce16d4c89f920c965508e2ddc4f78e7cf9327b3dffb4370dd7c82_Player_walk right_1.png",
+          "name": "Player_walk right_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk right_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/9626cfcd827411a522f6cffc59f890359454048a543a8c8586f731cbab93cbcd_Player_walk right_2.png",
+          "name": "Player_walk right_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk up_1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/1155c174f9572562787bb413fe6937b3485739196e5483f04d98e50db25a86be_Player_walk up_1.png",
+          "name": "Player_walk up_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Player_walk up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Player_walk up_2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Player/1f356255001568a2f7c19a698ae6bd96e1c48f8d998ce6bbddff36ecd62ce11d_Player_walk up_2.png",
+          "name": "Player_walk up_2.png"
+        }
+      },
+      {
+        "file": "assets/Male Casual.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Male Casual.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/9e45e58c10682186015966e9739499ac835b807ab0cb20be0f648458ecf44a0d_Male Casual.glb",
+          "name": "Male Casual.glb"
+        }
+      },
+      {
+        "file": "assets/Female Dress.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Female Dress.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/4bad5d9fa0fb1b72754990d0f46d13e97d581b8b33cf40ed829ed857742738c8_Female Dress.glb",
+          "name": "Female Dress.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/rollerpony_floor_marked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\rollerpony_floor_marked.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Blip 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "406bd0e4abc5c10b56bf8521fcd118dabef30afc61bcf9ce5007eaf64727b1ea_Blip 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Blip/406bd0e4abc5c10b56bf8521fcd118dabef30afc61bcf9ce5007eaf64727b1ea_Blip 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/stage.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\stage.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/stage2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\stage2.glb",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PixelTrail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PixelTrail.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/ef6aa63d5cdf5ce14f88668e4d55a67a0051bc54e48e592fd3abbfed7e104b79_PixelTrail.png",
+          "name": "PixelTrail.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LightGlow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LightGlow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Particles/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
+          "name": "LightGlow.png"
+        }
+      },
+      {
+        "file": "assets/Hit 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Funky Energy Loop.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "de0fe8d42aebd1dc02c6eda7af3e60e4cad68a1cc68a47356d87106b1a2c7637_Funky Energy Loop.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Underscoring/de0fe8d42aebd1dc02c6eda7af3e60e4cad68a1cc68a47356d87106b1a2c7637_Funky Energy Loop.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Groovin.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "b5b3fa3458d97df25579ab5fa2026cc99126a947ed6c3591fb3fb25ee1b2dcbd_Groovin.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Jazz/b5b3fa3458d97df25579ab5fa2026cc99126a947ed6c3591fb3fb25ee1b2dcbd_Groovin.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Empty UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Empty UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/688519c5bb4abaf5805518633f2ff810928e29164497fb5c13dabf97044be843_tiled_Tiled Empty UI Heart.png",
+          "name": "tiled_Tiled Empty UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Tiled Filler UI Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Tiled Filler UI Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/5b5c6c85ec4e1f5b6688be565c9a06920a76ee191915738afd61da1481fd6493_tiled_Tiled Filler UI Heart.png",
+          "name": "tiled_Tiled Filler UI Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/scanlines.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\scanlines.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PixelTrail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\PixelTrail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Free SynthWave Music Pack/6. 80s, Disco, Life.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Free SynthWave Music Pack\\6. 80s, Disco, Life.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/sfx/skates.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sfx\\skates.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eb4edad2c3c752116fd28898f6bf0ae8dd0ab73b5cca111dbbd1e541c92dc393_Grey Button With Shadow_Hovered.png",
+          "name": "Grey Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7a8f60c5db6936e591235ae6ef3eca1c856c61adcc8d2a059e4e408804ebc477_Grey Button With Shadow_Idle.png",
+          "name": "Grey Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/907400b52ad729d17d819ce65fcedcc7819a07bbf18d106029ef4e7fbfb14d42_Grey Button With Shadow_Pressed.png",
+          "name": "Grey Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Desert Background 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Desert Background 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/bf4724f5bc368533cc629b61c161ab24120a7212e1dde3387f5f003ce4d8eb3c_tiled_Desert Background 2.png",
+          "name": "tiled_Desert Background 2.png"
+        }
+      },
+      {
+        "file": "assets/Denied_01.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7466e7d6f5c06c2dd74c1709b8f7680e50100c0c9d234bdbdfca076a111faf5a_Denied_01.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/7466e7d6f5c06c2dd74c1709b8f7680e50100c0c9d234bdbdfca076a111faf5a_Denied_01.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Coin.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Coin.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Game Kit/Collectable/ea02ad5cfdf38faf4b89b91672ec926dba2110e5ee78f0dfd5aa3a1200063d1a_Coin.glb",
+          "name": "Coin.glb"
+        }
+      },
+      {
+        "file": "assets/1up 7.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5151aab7b2974cafe47880b1460939d5903ed828d1c62ccae62ee60a3235fb8e_1up 7.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/1up/5151aab7b2974cafe47880b1460939d5903ed828d1c62ccae62ee60a3235fb8e_1up 7.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/1up 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "a47d4b16b822ffe16230389efa8554d92d5703388a2be4610264341b74ec5bbb_1up 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/1up/a47d4b16b822ffe16230389efa8554d92d5703388a2be4610264341b74ec5bbb_1up 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Coins 8.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/c52f1dacc263a2a6dc94e712a2a148f909b73372fa8e0622cb237fdc6a72fd6c_Coins 8.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Male Shirt2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Male Shirt.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/e46cf16d5b47cde3bcd9c38ec2a2cec07c4190ec303d5eec6baaca39b970c25e_Male Shirt.glb",
+          "name": "Male Shirt.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CRT GIF.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\CRT GIF.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "26",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "27",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "28",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "29",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "30",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "31",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "32",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "33",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "34",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "35",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "36",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "37",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "38",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "39",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/MediumLanePathPoint1_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "MediumLanePathPoint1_Front",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Hit 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "e41e3576a8dab4fca0f7a330c8c485402564e1434f0b56cc881fdc15fc3ac0d7_Hit 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/e41e3576a8dab4fca0f7a330c8c485402564e1434f0b56cc881fdc15fc3ac0d7_Hit 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Hit 9.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "f7ac7de65c9248c5cf0697cbcd2e3bc2399881944f3f829286a9dcb34e75ba66_Hit 9.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/f7ac7de65c9248c5cf0697cbcd2e3bc2399881944f3f829286a9dcb34e75ba66_Hit 9.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TV Screen Overlay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TV Screen Overlay.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/PTSans-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "349e61a855adefea40c789fda27ec8fb8664af49c28d6495da8a56dba40c3704_PTSans-Bold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Font/349e61a855adefea40c789fda27ec8fb8664af49c28d6495da8a56dba40c3704_PTSans-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Woosh 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "93a66379648984e7c67781f3480db427c1773692a954aa10972e33aa0e1e257a_Woosh 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/93a66379648984e7c67781f3480db427c1773692a954aa10972e33aa0e1e257a_Woosh 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Blocks.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/b6fd0cb2a1206afe3882f0187839aac780734a091c5e6c57ee25c84acdc1a499_Kenney Blocks.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/MPLUS1p-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Google Fonts/Japanese/e52c222618e05022eb341c976a201920125d3d17c643c2527d9df54b5d8bcb28_MPLUS1p-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/monogram.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\monogram.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fibberish v1.0/fibberish.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Fibberish v1.0\\fibberish.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Quaver v1.0/quaver.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Quaver v1.0\\quaver.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crown Coin_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crown Coin_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/b15f7a6621cd76db63aedd5b53136da4a3b3a690e7a0d8b4cf907cc9e067de19_Crown Coin_No Shadow.png",
+          "name": "Crown Coin_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Crown Coin_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Crown Coin_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/e58724386c4e35a550e1009721adc894251ce8940be2b2c27d42de2a0bd12816_Crown Coin_Shadow.png",
+          "name": "Crown Coin_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c49fc26e46b89aa8a5d48a1823fc292cffc6b610713ff3a3fff796e151412a59_Left-Arrow.png",
+          "name": "Left-Arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exit.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/8d613cb01a23234d6b798d9306e21ec1fa3da0e1bb2126ce1b78d92df315f360_Exit.png",
+          "name": "Exit.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/3ac4ccfca394be1b0e90c245ed85246d69ad1324d0cc398d74b9a944f9e14605_Right-Arrow.png",
+          "name": "Right-Arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Exclamation-Mark.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Exclamation-Mark.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/f24bafc477aa637d9a4f2438d83948b544bf266d33ceb96e3fc6bee5e6ee1d8f_Exclamation-Mark.png",
+          "name": "Exclamation-Mark.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
+          "name": "Medieval Button Brown_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
+          "name": "Medieval Button Brown_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
+          "name": "Medieval Button Brown_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "CaveatBrush-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/Lose 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7833b0affdd8b8dc7a876aec6788ff38c2a071f7ef6a6006aab94973ca0b217e_Lose 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Lose/7833b0affdd8b8dc7a876aec6788ff38c2a071f7ef6a6006aab94973ca0b217e_Lose 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "input_forward",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "input_backward",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "input_left",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "input_right",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "input_break",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "input_attack",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "input_block",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "input_adv_def",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "player_movespeed",
+      "type": "number",
+      "value": 500
+    },
+    {
+      "name": "player_turnspeed",
+      "type": "number",
+      "value": 2
+    },
+    {
+      "name": "player_state",
+      "type": "string",
+      "value": "idle"
+    },
+    {
+      "folded": true,
+      "name": "camera_state",
+      "type": "string",
+      "value": "outside"
+    },
+    {
+      "folded": true,
+      "name": "skate_sfx_frame_counter",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "is_transitioning_camera_state",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_IDLE",
+      "type": "string",
+      "value": "idle"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_SKATING",
+      "type": "string",
+      "value": "skating"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_SKATING_TURNING",
+      "type": "string",
+      "value": "skating_turning"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_SWITCHING_LANES",
+      "type": "string",
+      "value": "switching_lanes"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_MOVE_FORWARD",
+      "type": "string",
+      "value": "move_forward"
+    },
+    {
+      "name": "PLAYER_STATE_MOVE_BACKWARD",
+      "type": "string",
+      "value": "move_backward"
+    },
+    {
+      "name": "PLAYER_STATE_ENTER_SKATE",
+      "type": "string",
+      "value": "enter_skate"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_ENTER_BATTLE",
+      "type": "string",
+      "value": "enter_battle"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_EXIT_SKATE",
+      "type": "string",
+      "value": "exit_skate"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_EXIT_BATTLE_TOP",
+      "type": "string",
+      "value": "exit_battle_top"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_EXIT_BATTLE_BOTTOM",
+      "type": "string",
+      "value": "exit_battle_bottom"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_BEGIN_ATTACK",
+      "type": "string",
+      "value": "begin_attack"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_END_ATTACK",
+      "type": "string",
+      "value": "end_attack"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_BEGIN_DODGE_LEFT",
+      "type": "string",
+      "value": "begin_dodge_left"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_DODGING_LEFT",
+      "type": "string",
+      "value": "dodging_left"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_END_DODGE_LEFT",
+      "type": "string",
+      "value": "end_dodge_left"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_BEGIN_DODGE_RIGHT",
+      "type": "string",
+      "value": "begin_dodge_right"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_DODGING_RIGHT",
+      "type": "string",
+      "value": "dodging_right"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_END_DODGE_RIGHT",
+      "type": "string",
+      "value": "end_dodge_right"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_BLOCK",
+      "type": "string",
+      "value": "block"
+    },
+    {
+      "folded": true,
+      "name": "SLOW_LANE_BASE_SPEED",
+      "type": "number",
+      "value": 500
+    },
+    {
+      "folded": true,
+      "name": "MEDIUM_LANE_BASE_SPEED",
+      "type": "number",
+      "value": 750
+    },
+    {
+      "folded": true,
+      "name": "FAST_LANE_BASE_SPEED",
+      "type": "number",
+      "value": 1000
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_SKATE_ACCELERATION_AMOUNT",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_SKATE_DECELLERATION_AMOUNT",
+      "type": "number",
+      "value": 10
+    },
+    {
+      "name": "ANIMATION_STATE_SKATING",
+      "type": "string",
+      "value": "\"skating\""
+    },
+    {
+      "folded": true,
+      "name": "MAX_SKATERS",
+      "type": "number",
+      "value": 20
+    },
+    {
+      "name": "SKATE_SOUND_FRAME_TIMING",
+      "type": "number",
+      "value": 45
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_LANE_SWITCH_SPEED_MULTIPLIER",
+      "type": "number",
+      "value": 0.5
+    },
+    {
+      "folded": true,
+      "name": "CAMERA_STATE_SKATE",
+      "type": "string",
+      "value": "\"skate\""
+    },
+    {
+      "folded": true,
+      "name": "CAMERA_STATE_OUTSIDE",
+      "type": "string",
+      "value": "\"outside\""
+    },
+    {
+      "folded": true,
+      "name": "CAMERA_STATE_BATTLE",
+      "type": "string",
+      "value": "\"battle\""
+    },
+    {
+      "folded": true,
+      "name": "current_currency",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "player_is_alive",
+      "type": "boolean",
+      "value": true
+    },
+    {
+      "name": "PLAYER_STATE_DIE",
+      "type": "string",
+      "value": "\"die\""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gameover"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sticker"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/valuesofmultipleobjects"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectpickingtools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linktools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/repeateveryxseconds"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/arraytools"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectspawner"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/particleemitter3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/linearmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/thirdpersoncamera"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
