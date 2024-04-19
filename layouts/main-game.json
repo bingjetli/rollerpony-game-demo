@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4950840073749311,
+    "zoomFactor": 1.0269425874982008,
     "windowMask": false
   },
   "objectsGroups": [
@@ -281,10 +281,8 @@
       "depth": 1,
       "height": 2208,
       "layer": "",
-      "locked": true,
       "name": "stage_box",
       "persistentUuid": "6fb273af-8ee5-421c-837f-0a02dbff74f5",
-      "sealed": true,
       "width": 4500,
       "x": -2285,
       "y": -2789,
@@ -347,8 +345,8 @@
       "name": "Debug",
       "persistentUuid": "304cf4f9-f5c4-4d12-9411-e3dfe48dc183",
       "width": 44,
-      "x": 14,
-      "y": 177,
+      "x": 24,
+      "y": 44,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -765,17 +763,17 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 15000,
-      "height": 4445,
+      "depth": 10000,
+      "height": 5500,
       "layer": "",
       "locked": true,
       "name": "Stage",
       "persistentUuid": "53ecfd40-2e4e-44cf-a803-805c1df82418",
       "sealed": true,
-      "width": 12822,
-      "x": -499,
-      "y": -1374,
-      "z": -77,
+      "width": 10000,
+      "x": -19,
+      "y": -1679,
+      "z": 81,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -790,8 +788,8 @@
       "name": "OutsideCameraBoundRight",
       "persistentUuid": "25694e5a-6b26-444c-9e5b-21062cf4029e",
       "width": 100,
-      "x": 2473,
-      "y": -3763,
+      "x": 3243,
+      "y": -3835,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -806,7 +804,7 @@
       "name": "OutsideCameraBoundLeft",
       "persistentUuid": "0d21f5b4-42df-4c43-9174-50db308ad088",
       "width": 100,
-      "x": -2736,
+      "x": -2664,
       "y": -3855,
       "zOrder": 36,
       "numberProperties": [],
@@ -822,8 +820,8 @@
       "name": "OutsideCameraBoundBottom",
       "persistentUuid": "d0b8120c-e284-404c-bce9-261ff76c3faf",
       "width": 5000,
-      "x": -2617,
-      "y": 635,
+      "x": -2524,
+      "y": 1149,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -838,8 +836,8 @@
       "name": "OutsideCameraBoundTop",
       "persistentUuid": "00e5ac8e-77e0-4177-90a1-4da441cb1613",
       "width": 5000,
-      "x": -2515,
-      "y": -3325,
+      "x": -2556,
+      "y": -3418,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -2234,8 +2232,8 @@
       "name": "SkateLeftArrow",
       "persistentUuid": "e280f401-acb0-42e8-85d5-30948220506e",
       "width": 32,
-      "x": 40,
-      "y": 225,
+      "x": 21,
+      "y": 181,
       "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
@@ -2250,8 +2248,8 @@
       "name": "SkateRightArrow",
       "persistentUuid": "578ae5d9-2b2d-4e82-8613-115ced818c12",
       "width": 32,
-      "x": 540,
-      "y": 225,
+      "x": 417,
+      "y": 181,
       "zOrder": 72,
       "numberProperties": [
         {
@@ -2271,8 +2269,8 @@
       "name": "Exit",
       "persistentUuid": "11670642-bcac-455b-b4c3-2d2087e3e147",
       "width": 32,
-      "x": 300,
-      "y": 400,
+      "x": 220,
+      "y": 300,
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
@@ -2286,8 +2284,8 @@
       "name": "ExitText",
       "persistentUuid": "48efc0b7-6aeb-46be-abea-89bfefa84c29",
       "width": 0,
-      "x": 250,
-      "y": 375,
+      "x": 170,
+      "y": 275,
       "zOrder": 74,
       "numberProperties": [],
       "stringProperties": [],
@@ -2301,8 +2299,8 @@
       "name": "ExitSkateText",
       "persistentUuid": "03f5fdbe-bd89-4b78-9f90-5d26610a03d9",
       "width": 0,
-      "x": 500,
-      "y": 175,
+      "x": 377,
+      "y": 131,
       "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
@@ -2316,8 +2314,8 @@
       "name": "EnterArenaText",
       "persistentUuid": "5f023051-e9ee-447f-837a-de72ed6b0a85",
       "width": 0,
-      "x": 30,
-      "y": 175,
+      "x": 11,
+      "y": 131,
       "zOrder": 76,
       "numberProperties": [],
       "stringProperties": [],
@@ -2331,9 +2329,72 @@
       "name": "PlayAgainButton",
       "persistentUuid": "cdd04d4c-48f1-4a62-8ca2-4f5d5e514cf3",
       "width": 0,
-      "x": 200,
-      "y": 200,
+      "x": 145,
+      "y": 145,
       "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Hidden",
+      "name": "SquareWhiteSlider",
+      "persistentUuid": "671c8e3f-1dcf-4f93-9a03-429c7a897d16",
+      "width": 0,
+      "x": 158,
+      "y": 320,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Hidden",
+      "name": "SquareWhiteToggle",
+      "persistentUuid": "bb7f785b-be18-4338-a648-81a1322e1910",
+      "width": 0,
+      "x": 463,
+      "y": 317,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewEnable_WithThreeJS",
+      "persistentUuid": "fc578172-8fc7-4564-b9d5-ecee2354f18b",
+      "width": 0,
+      "x": 396,
+      "y": -74,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 360,
+      "layer": "",
+      "locked": true,
+      "name": "Frame",
+      "persistentUuid": "863bf599-9be0-411c-8b66-9ddf9db0bef3",
+      "sealed": true,
+      "width": 480,
+      "x": 0,
+      "y": 0,
+      "zOrder": 81,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2399,9 +2460,59 @@
         },
         {
           "folded": true,
+          "name": "is_blocking",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "is_parrying",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
           "name": "dodge_direction",
           "type": "string",
           "value": "none"
+        },
+        {
+          "folded": true,
+          "name": "is_in_battle",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "is_attacking",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Variable",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "\"dance-attack1-nla\""
+            },
+            {
+              "persistentUuid": "22e0eda7-7da6-4f2b-9e78-a75bef16cf51",
+              "type": "string",
+              "value": "\"dance-attack2-nla\""
+            },
+            {
+              "persistentUuid": "d5157fd8-8745-498f-b602-0fa9c1b0d429",
+              "type": "string",
+              "value": "\"dance-attack3-nla\""
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "attack_style",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -2445,8 +2556,8 @@
         "depth": 156,
         "height": 156,
         "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "Male Casual.glb",
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\player-v1.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
@@ -2454,64 +2565,89 @@
         "width": 156,
         "animations": [
           {
+            "loop": false,
+            "name": "dance-attack1-nla",
+            "source": "dance-attack1-nla"
+          },
+          {
+            "loop": false,
+            "name": "dance-attack2-nla",
+            "source": "dance-attack2-nla"
+          },
+          {
+            "loop": false,
+            "name": "dance-attack3-nla",
+            "source": "dance-attack3-nla"
+          },
+          {
+            "loop": false,
+            "name": "dance-attack4-nla",
+            "source": "dance-attack4-nla"
+          },
+          {
+            "loop": false,
+            "name": "dance-block-hit-nla",
+            "source": "dance-block-hit-nla"
+          },
+          {
             "loop": true,
-            "name": "Idle",
-            "source": "Man_Idle"
+            "name": "dance-block-idle-nla",
+            "source": "dance-block-idle-nla"
+          },
+          {
+            "loop": false,
+            "name": "dance-hit",
+            "source": "dance-hit"
           },
           {
             "loop": true,
-            "name": "Walk",
-            "source": "Man_Walk"
+            "name": "dance-idle-nla",
+            "source": "dance-idle-nla"
+          },
+          {
+            "loop": false,
+            "name": "dance-parry-end-nla",
+            "source": "dance-parry-end-nla"
+          },
+          {
+            "loop": false,
+            "name": "dance-parry-start-nla",
+            "source": "dance-parry-start-nla"
           },
           {
             "loop": true,
-            "name": "Run",
-            "source": "Man_Run"
+            "name": "idle-nla",
+            "source": "idle-nla"
           },
           {
             "loop": false,
-            "name": "Jump",
-            "source": "Man_Jump"
+            "name": "lose-nla",
+            "source": "lose-nla"
           },
           {
             "loop": false,
-            "name": "Punch",
-            "source": "Man_Punch"
+            "name": "roll-nla",
+            "source": "roll-nla"
+          },
+          {
+            "loop": true,
+            "name": "run-nla",
+            "source": "run-nla"
           },
           {
             "loop": false,
-            "name": "Death",
-            "source": "Man_Death"
+            "name": "turn-180-nla",
+            "source": "turn-180-nla"
           },
           {
-            "loop": false,
-            "name": "RunningJump",
-            "source": "Man_RunningJump"
+            "loop": true,
+            "name": "turn-left-nla",
+            "source": "turn-left-nla"
           },
           {
-            "loop": false,
-            "name": "Roll",
-            "source": "Man_Roll"
-          },
-          {
-            "loop": false,
-            "name": "Sitting",
-            "source": "Man_Sitting"
-          },
-          {
-            "loop": false,
-            "name": "Standing",
-            "source": "Man_Standing"
-          },
-          {
-            "loop": false,
-            "name": "SwordSlash",
-            "source": "Man_SwordSlash"
-          },
-          {
-            "loop": false,
-            "name": "Clapping",
-            "source": "Man_Clapping"
+            "loop": true,
+            "name": "turn-right-nla",
+            "source": "turn-right-nla"
           }
         ]
       }
@@ -2619,7 +2755,7 @@
       "behaviors": [],
       "string": "Text",
       "font": "assets\\Quaver v1.0\\quaver.ttf",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 10,
       "color": {
         "b": 255,
@@ -2642,7 +2778,7 @@
         "underlined": false,
         "text": "Text",
         "font": "assets\\Quaver v1.0\\quaver.ttf",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "characterSize": 10,
         "color": "255;255;255"
       }
@@ -3106,7 +3242,7 @@
         "depth": 151,
         "height": 151,
         "keepAspectRatio": true,
-        "materialType": "Basic",
+        "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Female Dress.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
@@ -3785,7 +3921,7 @@
         "height": 323.22909975238514,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "assets\\stage.glb",
+        "modelResourceName": "assets\\rink model.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
@@ -4608,7 +4744,20 @@
       "assetStoreId": "a3f102e7726b95e83707a0df2a4fa71ba00c01eb1b9bbce352bda1a7702c236a",
       "name": "Boss",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "is_attacking",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "attack",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "content": {
@@ -4616,8 +4765,8 @@
         "depth": 156,
         "height": 156,
         "keepAspectRatio": true,
-        "materialType": "Basic",
-        "modelResourceName": "Male Shirt.glb",
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "assets\\boss-v1.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
@@ -4626,63 +4775,38 @@
         "animations": [
           {
             "loop": true,
-            "name": "Idle",
-            "source": "Man_Idle"
-          },
-          {
-            "loop": true,
-            "name": "Walk",
-            "source": "Man_Walk"
-          },
-          {
-            "loop": true,
-            "name": "Run",
-            "source": "Man_Run"
+            "name": "dance-idle-nla",
+            "source": "dance-idle-nla"
           },
           {
             "loop": false,
-            "name": "Jump",
-            "source": "Man_Jump"
+            "name": "dance-attack1-nla",
+            "source": "dance-attack1-nla"
           },
           {
             "loop": false,
-            "name": "Punch",
-            "source": "Man_Punch"
+            "name": "dance-attack2-nla",
+            "source": "dance-attack2-nla"
           },
           {
             "loop": false,
-            "name": "Death",
-            "source": "Man_Death"
+            "name": "dance-attack3-end-nla",
+            "source": "dance-attack3-end-nla"
           },
           {
             "loop": false,
-            "name": "RunningJump",
-            "source": "Man_RunningJump"
+            "name": "dance-attack3-start-nla",
+            "source": "dance-attack3-start-nla"
           },
           {
             "loop": false,
-            "name": "Roll",
-            "source": "Man_Roll"
+            "name": "dance-hit-nla",
+            "source": "dance-hit-nla"
           },
           {
             "loop": false,
-            "name": "Sitting",
-            "source": "Man_Sitting"
-          },
-          {
-            "loop": false,
-            "name": "Standing",
-            "source": "Man_Standing"
-          },
-          {
-            "loop": false,
-            "name": "SwordSlash",
-            "source": "Man_SwordSlash"
-          },
-          {
-            "loop": false,
-            "name": "Clapping",
-            "source": "Man_Clapping"
+            "name": "die-nla",
+            "source": "die-nla"
           }
         ]
       }
@@ -4720,7 +4844,7 @@
           "effectType": "Adjustment",
           "name": "Effect2",
           "doubleParameters": {
-            "alpha": 0.33,
+            "alpha": 0.033,
             "blue": 0.6,
             "brightness": 1.5,
             "contrast": 1.5,
@@ -5708,11 +5832,379 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
+      "name": "SquareWhiteSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 6,
+        "BarLeftPadding": 6,
+        "BarRightPadding": 6,
+        "BarBottomPadding": 6,
+        "LabelMargin": 6
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 28,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Square White Slider Border.png",
+          "tiled": false,
+          "topMargin": 4,
+          "width": 265
+        },
+        "FillBar": {
+          "bottomMargin": 2,
+          "height": 16,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Square White Slider Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 16
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 20,
+            "color": "221;221;221"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 2,
+          "height": 36,
+          "leftMargin": 1,
+          "rightMargin": 1,
+          "texture": "Square White Slider Thumb.png",
+          "tiled": false,
+          "topMargin": 2,
+          "width": 22
+        }
+      }
+    },
+    {
+      "assetStoreId": "7f3b0673f7479b4b487bcbadbb3c8b9412a8e6d8694543f9ec3419365ebff3f5",
+      "name": "SquareWhiteToggle",
+      "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "State": {
+          "adaptCollisionMaskAutomatically": false,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Unchecked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Square White Toggle_Off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Checked",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Square White Toggle_On.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewEnable_WithThreeJS",
+      "type": "WithThreeJS::EnableWithThreeJS",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {}
+    },
+    {
+      "assetStoreId": "",
+      "name": "PixelVFX1",
+      "type": "ParticleEmitter3D::ParticleEmitter3D",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "content": {
+        "Flow": 10,
+        "LifespanMax": 10,
+        "EndScale": 10,
+        "StartSizeMax": 50,
+        "StartSizeMin": 10,
+        "SpayConeAngle": 10,
+        "Duration": 10,
+        "LifespanMin": 10,
+        "StartSpeedMin": 100,
+        "StartSpeedMax": 200,
+        "GravityTop": "Z+",
+        "StartColor": "144;19;254",
+        "EndColor": "80;227;194",
+        "Blending": "Additive"
+      },
+      "childrenContent": {
+        "Particle": {
+          "adaptCollisionMaskAutomatically": true,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Image",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "2a168852d78fe7079e7cbb723c583dc9f0c601b0cb60566ca9edbe8e3c0806ab_midnight_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 25
+                          },
+                          {
+                            "x": 71,
+                            "y": 25
+                          },
+                          {
+                            "x": 71,
+                            "y": 76
+                          },
+                          {
+                            "x": 24,
+                            "y": 76
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BoxVFX1",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 50,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "New3DBox_Front",
+        "backFaceResourceName": "New3DBox_Front",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "New3DBox_Front",
+        "rightFaceResourceName": "New3DBox_Front",
+        "topFaceResourceName": "New3DBox_Front",
+        "bottomFaceResourceName": "New3DBox_Front",
+        "frontFaceVisible": false,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "BoxVFX2",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "content": {
+        "width": 10,
+        "height": 10,
+        "depth": 33,
+        "enableTextureTransparency": true,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "New3DBox_Front",
+        "backFaceResourceName": "New3DBox_Front",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "New3DBox_Front",
+        "rightFaceResourceName": "New3DBox_Front",
+        "topFaceResourceName": "New3DBox_Front",
+        "bottomFaceResourceName": "New3DBox_Front",
+        "frontFaceVisible": false,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "Frame",
+      "rightMargin": 0,
+      "texture": "NewPanelSprite",
+      "tiled": false,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "NewEnable_WithThreeJS"
+      },
+      {
+        "objectName": "Frame"
+      },
+      {
+        "folderName": "VFX",
+        "children": [
+          {
+            "objectName": "PixelVFX1"
+          },
+          {
+            "objectName": "BoxVFX1"
+          },
+          {
+            "objectName": "BoxVFX2"
+          }
+        ]
+      },
       {
         "folderName": "Stage",
         "children": [
@@ -5979,6 +6471,12 @@
       },
       {
         "objectName": "NewParticleEmitter"
+      },
+      {
+        "objectName": "SquareWhiteSlider"
+      },
+      {
+        "objectName": "SquareWhiteToggle"
       }
     ]
   },
@@ -6026,7 +6524,7 @@
                     "assets\\Free SynthWave Music Pack\\6. 80s, Disco, Life.wav",
                     "1",
                     "yes",
-                    "33",
+                    "50",
                     ""
                   ]
                 },
@@ -6058,8 +6556,8 @@
                   },
                   "parameters": [
                     "",
-                    "640",
-                    "480"
+                    "480",
+                    "360"
                   ]
                 }
               ]
@@ -6142,6 +6640,15 @@
                     "",
                     "\"SkaterDecisionTimer\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"BossDecisionTimer\""
+                  ]
                 }
               ]
             },
@@ -6199,6 +6706,16 @@
                     "camera_state",
                     "=",
                     "CAMERA_STATE_OUTSIDE"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_in_battle",
+                    ""
                   ]
                 }
               ]
@@ -6757,136 +7274,44 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "disabled": true,
-          "name": "Synchronize Dynamic Collision Boxes",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreAutour"
-                  },
-                  "parameters": [
-                    "PlayerHurtbox",
-                    "Player",
-                    "0",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "PlayerHurtbox",
-                    "=",
-                    "Player.Angle()"
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "VarGlobalTxt"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_SKATING"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_ENTER_SKATE"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_ENTER_BATTLE"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_BEGIN_ATTACK"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_EXIT_BATTLE_TOP"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_EXIT_BATTLE_BOTTOM"
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_EXIT_SKATE"
-              ]
-            },
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Player",
-                "is_dodging",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobalTxt"
-              },
-              "parameters": [
-                "player_state",
-                "!=",
-                "PLAYER_STATE_DIE"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "player_state",
+                    "=",
+                    "PLAYER_STATE_MOVE_FORWARD"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "player_state",
+                    "=",
+                    "PLAYER_STATE_MOVE_BACKWARD"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarGlobalTxt"
+                  },
+                  "parameters": [
+                    "player_state",
+                    "=",
+                    "PLAYER_STATE_BLOCK"
+                  ]
+                }
               ]
             }
           ],
@@ -6911,6 +7336,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "ProcessInputs",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7555,6 +7981,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "HandleLaneSpeedControls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7649,6 +8076,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "HandleLaneSwitchingControls",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7980,6 +8408,68 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_blocking",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "input_block",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "VarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "!=",
+                        "PLAYER_STATE_BLOCK_HIT"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_BLOCK"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_blocking",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
@@ -7988,6 +8478,186 @@
                       "parameters": [
                         "Player",
                         "is_dodging",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_parrying",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_attacking",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "input_adv_def",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "input_left",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_dodging",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_BEGIN_DODGE_LEFT"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_dodging",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_parrying",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_attacking",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "input_adv_def",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "input_right",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_dodging",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_BEGIN_DODGE_RIGHT"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_dodging",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_attacking",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_parrying",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_blocking",
                         ""
                       ]
                     }
@@ -8041,44 +8711,6 @@
                             "PLAYER_STATE_MOVE_FORWARD"
                           ]
                         }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "input_adv_def",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "player_state",
-                                "=",
-                                "PLAYER_STATE_MOVE_FORWARD"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobalTxt"
-                              },
-                              "parameters": [
-                                "player_state",
-                                "=",
-                                "PLAYER_STATE_BEGIN_DODGE_LEFT"
-                              ]
-                            }
-                          ]
-                        }
                       ]
                     },
                     {
@@ -8126,44 +8758,6 @@
                             "player_state",
                             "=",
                             "PLAYER_STATE_MOVE_FORWARD"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "GlobalVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "input_adv_def",
-                                "True"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "VarGlobalTxt"
-                              },
-                              "parameters": [
-                                "player_state",
-                                "=",
-                                "PLAYER_STATE_MOVE_FORWARD"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ModVarGlobalTxt"
-                              },
-                              "parameters": [
-                                "player_state",
-                                "=",
-                                "PLAYER_STATE_BEGIN_DODGE_RIGHT"
-                              ]
-                            }
                           ]
                         }
                       ]
@@ -8235,31 +8829,96 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
+                    },
                     {
-                      "type": {
-                        "value": "GlobalVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "input_block",
-                        "True"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "input_attack",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player",
+                            "is_attacking",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Player",
+                            "attack_style",
+                            "=",
+                            "RandomInRange(0, 2)"
+                          ]
+                        }
                       ]
-                    }
-                  ],
-                  "actions": [
+                    },
                     {
-                      "type": {
-                        "value": "ModVarGlobalTxt"
-                      },
-                      "parameters": [
-                        "player_state",
-                        "=",
-                        "PLAYER_STATE_BLOCK"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "input_adv_def",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "input_right",
+                            "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "input_left",
+                            "False"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarGlobalTxt"
+                          },
+                          "parameters": [
+                            "player_state",
+                            "=",
+                            "PLAYER_STATE_PARRY_START"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player",
+                            "is_parrying",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -8283,6 +8942,11 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -8292,6 +8956,16 @@
                 "player_state",
                 "=",
                 "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                "False"
               ]
             }
           ],
@@ -8304,7 +8978,56 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Idle\""
+                "\"idle-nla\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "\"idle\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"dance-idle-nla\""
               ]
             },
             {
@@ -8343,7 +9066,85 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Walk\""
+                "\"run-nla\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_TURN_LEFT"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"turn-left-nla\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_TURN_RIGHT"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"turn-right-nla\""
               ]
             },
             {
@@ -8382,7 +9183,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Walk\""
+                "\"run-nla\""
               ]
             },
             {
@@ -8421,7 +9222,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Run\""
+                "\"run-nla\""
               ]
             },
             {
@@ -8460,7 +9261,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Run\""
+                "\"run-nla\""
               ]
             },
             {
@@ -8499,7 +9300,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Run\""
+                "\"run-nla\""
               ]
             },
             {
@@ -8538,7 +9339,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Run\""
+                "\"run-nla\""
               ]
             },
             {
@@ -8577,7 +9378,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Run\""
+                "\"run-nla\""
               ]
             },
             {
@@ -8616,7 +9417,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Run\""
+                "\"run-nla\""
               ]
             },
             {
@@ -8655,7 +9456,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Roll\""
+                "\"roll-nla\""
               ]
             },
             {
@@ -8666,7 +9467,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "1"
+                "2"
               ]
             },
             {
@@ -8725,7 +9526,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Roll\""
+                "\"roll-nla\""
               ]
             },
             {
@@ -8736,7 +9537,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "1"
+                "2"
               ]
             },
             {
@@ -8805,7 +9606,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Roll\""
+                "\"roll-nla\""
               ]
             },
             {
@@ -8913,18 +9714,6 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "7466e7d6f5c06c2dd74c1709b8f7680e50100c0c9d234bdbdfca076a111faf5a_Denied_01.aac",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ModVarGlobalTxt"
                   },
                   "parameters": [
@@ -8970,7 +9759,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Roll\""
+                "\"roll-nla\""
               ]
             },
             {
@@ -9078,18 +9867,6 @@
                 },
                 {
                   "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "7466e7d6f5c06c2dd74c1709b8f7680e50100c0c9d234bdbdfca076a111faf5a_Denied_01.aac",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "ModVarGlobalTxt"
                   },
                   "parameters": [
@@ -9125,36 +9902,17 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Clapping\""
+                "\"dance-block-idle-nla\""
               ]
-            }
-          ],
-          "events": [
+            },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"Clapping\""
-                  ]
-                }
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_blocking",
+                "True"
               ]
             }
           ]
@@ -9182,7 +9940,7 @@
                 "Player",
                 "Animation",
                 "=",
-                "\"Death\""
+                "\"lose-nla\""
               ]
             },
             {
@@ -9196,7 +9954,321 @@
                 "1"
               ]
             }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_attacking",
+                "True"
+              ]
+            }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_ATTACKING"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "attack_style",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"dance-attack1-nla\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "1.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "attack_style",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"dance-attack2-nla\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "1.5"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "attack_style",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"dance-attack3-nla\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_PARRY_START"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"dance-parry-start-nla\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_PARRY_END"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"dance-parry-end-nla\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_HIT"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"dance-hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_BLOCK_HIT"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"dance-block-hit-nla\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "HandleAnimationEndTransitions",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -9211,19 +10283,248 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "PlayAgainButton",
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"dance-attack1-nla\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"dance-attack2-nla\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"dance-attack3-nla\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_IDLE"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_attacking",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"lose-nla\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "PlayAgainButton",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"dance-parry-start-nla\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_PARRY_END"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_parrying",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"dance-parry-end-nla\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_IDLE"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_parrying",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeTimeScale"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"dance-hit\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_IDLE"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"dance-block-hit-nla\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobalTxt"
+                      },
+                      "parameters": [
+                        "player_state",
+                        "=",
+                        "PLAYER_STATE_IDLE"
+                      ]
+                    }
                   ]
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         }
       ],
       "parameters": []
@@ -9897,6 +11198,16 @@
                 "=",
                 "CAMERA_STATE_SKATE"
               ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                ""
+              ]
             }
           ]
         },
@@ -9975,6 +11286,16 @@
                 "camera_state",
                 "=",
                 "CAMERA_STATE_OUTSIDE"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                ""
               ]
             }
           ]
@@ -10065,6 +11386,16 @@
                 "=",
                 "CAMERA_STATE_SKATE"
               ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                ""
+              ]
             }
           ]
         },
@@ -10153,6 +11484,16 @@
                 "camera_state",
                 "=",
                 "CAMERA_STATE_SKATE"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                ""
               ]
             }
           ]
@@ -11829,6 +13170,114 @@
       "colorR": 74,
       "creationTime": 0,
       "folded": true,
+      "name": "ProcessBossAI",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"BossDecisionTimer\"",
+                ">=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"BossDecisionTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "is_attacking",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "RandomFloatInRange(0, 1)",
+                        ">=",
+                        "0.33"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "attack",
+                        "=",
+                        "RandomInRange(0, 2)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "is_attacking",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
       "name": "ProcessSkaterAI",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -12190,6 +13639,16 @@
                 "=",
                 "CAMERA_STATE_BATTLE"
               ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                "True"
+              ]
             }
           ]
         },
@@ -12238,6 +13697,16 @@
                 "camera_state",
                 "=",
                 "CAMERA_STATE_BATTLE"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                "True"
               ]
             }
           ]
@@ -12364,6 +13833,16 @@
                 "camera_state",
                 "=",
                 "CAMERA_STATE_SKATE"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                ""
               ]
             }
           ]
@@ -14823,6 +16302,16 @@
                     "=",
                     "CAMERA_STATE_SKATE"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_in_battle",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14888,6 +16377,16 @@
                     "camera_state",
                     "=",
                     "CAMERA_STATE_SKATE"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_in_battle",
+                    ""
                   ]
                 }
               ]
@@ -14982,6 +16481,16 @@
                     "camera_state",
                     "=",
                     "CAMERA_STATE_SKATE"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_in_battle",
+                    ""
                   ]
                 }
               ]
@@ -19723,6 +21232,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "ProcessSkaterSpawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19891,6 +21401,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "ProcessCoinHit",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -19973,6 +21484,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "ProcessCoinSpawning",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20093,6 +21605,1160 @@
                     "\"CoinSpawnTimer\""
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "ProcessBossAnimations",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Boss",
+                "is_attacking",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"dance-idle-nla\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "attack",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-attack1-nla\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "attack",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-attack2-nla\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "attack",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-attack3-start-nla\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Boss",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-attack1-nla\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BoxVFX2",
+                    "Boss.X()",
+                    "Boss.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "BoxVFX2",
+                    "Boss.AngleToObject(Player)",
+                    "750",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PixelVFX1",
+                    "Boss.X()",
+                    "Boss.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "PixelVFX1",
+                    "Sticker",
+                    "BoxVFX2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "208c11a06c6413ff7b02b490bf9dad801113167370013cdf516d1c4044ed7c22_Boss Shoot.aac",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-attack2-nla\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BoxVFX2",
+                    "Boss.X()",
+                    "Boss.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "BoxVFX2",
+                    "Boss.AngleToObject(Player)",
+                    "1500",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PixelVFX1",
+                    "Boss.X()",
+                    "Boss.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "PixelVFX1",
+                    "Sticker",
+                    "BoxVFX2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "6ee70967dbde39001225d3c6a8c379765a83e8e9af5b2192692cd7259f137aad_Sound 3.aac",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Animation",
+                        "=",
+                        "\"dance-attack1-nla\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Animation",
+                        "=",
+                        "\"dance-attack2-nla\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Boss",
+                        "Animation",
+                        "=",
+                        "\"dance-attack3-end-nla\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "is_attacking",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-idle-nla\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-attack3-start-nla\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dance-attack3-end-nla\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BoxVFX1",
+                    "(BoxVFX1.Width() / 2) - Boss.CenterX()",
+                    "(BoxVFX1.Height() / 2) - Boss.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "=",
+                    "Boss.CenterX()",
+                    "=",
+                    "Boss.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "60",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "13b98ab429c693bf660148b445e24a2390947d4190b5a8d171b517ec15914be2_Dark Shoot.aac",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene3D::Base3DBehavior::SetZ"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "Object3D",
+                    "=",
+                    "50"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "ProcessVFX",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "BoxVFX1",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::Value"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "Scale",
+                    "<=",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetX"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "Scale",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetY"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "Scale",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "=",
+                    "Boss.CenterX()",
+                    "=",
+                    "Boss.CenterY()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::Value"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    "Scale",
+                    ">",
+                    "10"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BoxVFX1",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "ProcessBossVFXHit",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerHurtbox",
+                "BoxVFX1",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_parrying",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "9da37a1894248e4166fcad28c5f2729b5c363ac1238eb8641814930dddad493c_1up 6.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BoxVFX1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerTranslationAmplitude"
+              },
+              "parameters": [
+                "",
+                "50",
+                "50",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "0.333",
+                "0",
+                "0.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerHurtbox",
+                "BoxVFX2",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_parrying",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeTimeScale"
+              },
+              "parameters": [
+                "",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "9da37a1894248e4166fcad28c5f2729b5c363ac1238eb8641814930dddad493c_1up 6.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BoxVFX2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerTranslationAmplitude"
+              },
+              "parameters": [
+                "",
+                "25",
+                "25",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "0.333",
+                "0",
+                "0.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerHurtbox",
+                "BoxVFX1",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_blocking",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "14f3d11f6dafa6bc689c719d3e2993cdb2c997d8c50f09dc0aeb869fddeca225_Blip 6.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_BLOCK_HIT"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BoxVFX1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerTranslationAmplitude"
+              },
+              "parameters": [
+                "",
+                "50",
+                "50",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "0.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerHurtbox",
+                "BoxVFX2",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_blocking",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "14f3d11f6dafa6bc689c719d3e2993cdb2c997d8c50f09dc0aeb869fddeca225_Blip 6.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_BLOCK_HIT"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BoxVFX2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerTranslationAmplitude"
+              },
+              "parameters": [
+                "",
+                "25",
+                "25",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "0.333",
+                "0",
+                "0.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerHurtbox",
+                "BoxVFX1",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_dodging",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_blocking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_parrying",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Player",
+                "Flash",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+              },
+              "parameters": [
+                "PixelHeartBar",
+                "-",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerTranslationAmplitude"
+              },
+              "parameters": [
+                "",
+                "100",
+                "100",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BoxVFX1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_HIT"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerHurtbox",
+                "BoxVFX2",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_dodging",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_blocking",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_parrying",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "Player",
+                "Flash",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "35050b95a0e87ff94beb868c98c76367570bb5ce35dd1d792e3a84f57dd16b73_Hit 1.aac",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+              },
+              "parameters": [
+                "PixelHeartBar",
+                "-",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::SetLayerTranslationAmplitude"
+              },
+              "parameters": [
+                "",
+                "50",
+                "50",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CameraShake::ShakeCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BoxVFX2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobalTxt"
+              },
+              "parameters": [
+                "player_state",
+                "=",
+                "PLAYER_STATE_HIT"
               ]
             }
           ]
@@ -20715,6 +23381,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "ProcessGameState",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -20782,6 +23449,16 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "is_in_battle",
+                ""
+              ]
             }
           ]
         },
@@ -20835,7 +23512,7 @@
                 "Debug",
                 "Text",
                 "=",
-                "\"STATE: \" + player_state + \", CUR_LANE: \" + player_skate_current_lane + \", NEX_LANE: \" + player_skate_next_lane + \", \nTARG_POINT: \" + player_skate_target_point + \", SWITCHING_LANES?: \" + player_skate_is_switching_lanes + \", CAMERA_STATE: \" + camera_state + \", IS_DODGING?: \" + Player.is_dodging"
+                "\"STATE: \" + player_state + \", CUR_LANE: \" + player_skate_current_lane + \", NEX_LANE: \" + player_skate_next_lane + \", \nTARG_POINT: \" + player_skate_target_point + \", SWITCHING_LANES?: \" + player_skate_is_switching_lanes + \", CAMERA_STATE: \" + camera_state + \", IS_DODGING?: \" + Player.is_dodging + \", IS_IN_BATTLE?\" + Player.is_in_battle + \", ATTACK_STYLE: \" + Player.attack_style"
               ]
             }
           ]
@@ -20947,17 +23624,39 @@
       ],
       "effects": [
         {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
+          "effectType": "Scene3D::ExponentialFog",
+          "name": "Fog",
           "doubleParameters": {
-            "elevation": 90,
-            "intensity": 0.5,
-            "rotation": 0
+            "density": 0.0008
           },
           "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Y-"
+            "color": "225;95;134"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "Key Light",
+          "doubleParameters": {
+            "elevation": 90,
+            "intensity": 0.66,
+            "rotation": -45
+          },
+          "stringParameters": {
+            "groundColor": "32;133;128",
+            "skyColor": "225;95;134",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::AmbientLight",
+          "name": "Effect",
+          "doubleParameters": {
+            "intensity": 1
+          },
+          "stringParameters": {
+            "color": "32;133;128"
           },
           "booleanParameters": {}
         }
@@ -21092,8 +23791,8 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "2dEffects",
-      "renderingType": "",
-      "visibility": true,
+      "renderingType": "2d",
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -21158,6 +23857,39 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Debug",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Hidden",
       "renderingType": "",
       "visibility": false,
       "cameras": [],

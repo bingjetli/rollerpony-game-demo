@@ -1401,6 +1401,958 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Lose/7833b0affdd8b8dc7a876aec6788ff38c2a071f7ef6a6006aab94973ca0b217e_Lose 1.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/rink model.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\rink model.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Boss Tpose.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Boss Tpose.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/boss dance.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\boss dance.glb",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/324e5f522f6242e9f93090e75ddc38427c3a6c42e8236dbf0ed541bd85cf7221_Square White Slider Border.png",
+          "name": "Square White Slider Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+          "name": "Square White Slider Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
+          "name": "Square White Slider Thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Toggle_Off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/e88334de6c9ad921b4719b34a512d70b923fcf36112610a7f9ed4d56aa77cfd0_Square White Toggle_Off.png",
+          "name": "Square White Toggle_Off.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Square White Toggle_On.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Toggle_On.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/ebdb63dcba9c53d41a0a468ba28929bf88b1b8698d672fc17568723fe1fbc3cc_Square White Toggle_On.png",
+          "name": "Square White Toggle_On.png"
+        }
+      },
+      {
+        "file": "assets/mix.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\mix.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/boss-anim-test.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\boss-anim-test.glb",
+        "userAdded": true
+      },
+      {
+        "file": "assets/player-v1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\player-v1.glb",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image2.png\"}",
+        "name": "New image2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/boss-v1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\boss-v1.glb",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Trail Yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "55b37eb8f3be9684897c097169e1a0bdcf4f9ca453aa863a959cd98920036e4b_Trail Yellow.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Simple Space/effects/55b37eb8f3be9684897c097169e1a0bdcf4f9ca453aa863a959cd98920036e4b_Trail Yellow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lightning-Texture-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "59f79e94532692d7af37ad256af2fc5e3e4de06e178f51de298704cc5eb449b2_Lightning-Texture-1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/59f79e94532692d7af37ad256af2fc5e3e4de06e178f51de298704cc5eb449b2_Lightning-Texture-1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ice Pick_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "a3b339d322160f9346323944155e355f0bbe427c2e01d4234fd2e564fb17a818_Ice Pick_18.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/a3b339d322160f9346323944155e355f0bbe427c2e01d4234fd2e564fb17a818_Ice Pick_18.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tornado_Loop_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "00957ef53582e8f005ab6d560a1c8c1cb4f47e8118d4ca05548b067de52daabb_Tornado_Loop_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/00957ef53582e8f005ab6d560a1c8c1cb4f47e8118d4ca05548b067de52daabb_Tornado_Loop_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nebula_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c74b49dffb4fe99d355a59a4f57aa8d8be52a053ea768aeeb008387211470ff3_nebula_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c74b49dffb4fe99d355a59a4f57aa8d8be52a053ea768aeeb008387211470ff3_nebula_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Star_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "66cf99442730c9577ff7fcc57f7ea5b2dac72a7bbf5041dd953d0b63ed07b7f1_Medium Star_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Art Spell Magic FX/66cf99442730c9577ff7fcc57f7ea5b2dac72a7bbf5041dd953d0b63ed07b7f1_Medium Star_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PixelTrail2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ef6aa63d5cdf5ce14f88668e4d55a67a0051bc54e48e592fd3abbfed7e104b79_PixelTrail.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/ef6aa63d5cdf5ce14f88668e4d55a67a0051bc54e48e592fd3abbfed7e104b79_PixelTrail.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Boss Shoot.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "208c11a06c6413ff7b02b490bf9dad801113167370013cdf516d1c4044ed7c22_Boss Shoot.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/208c11a06c6413ff7b02b490bf9dad801113167370013cdf516d1c4044ed7c22_Boss Shoot.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/midnight_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7b65cb3a7c8571f18b5284df2ad10a5cf5818e9d0b0555e2f857435357eccaa7_midnight_1.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7b65cb3a7c8571f18b5284df2ad10a5cf5818e9d0b0555e2f857435357eccaa7_midnight_1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/midnight_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6e3ace07f8b8a476c04eda007bd2add8ae93425158133afe624a32558304a8c6_midnight_2.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6e3ace07f8b8a476c04eda007bd2add8ae93425158133afe624a32558304a8c6_midnight_2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/midnight_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7b35f51fda62b245db2f5a8dfa6b36332d6efed17bf024bd4deb99eee6346204_midnight_3.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7b35f51fda62b245db2f5a8dfa6b36332d6efed17bf024bd4deb99eee6346204_midnight_3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/midnight_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e68ae6ec20f98d3d56a68df3dddbfc61d15f784394024dbb516c8f0fb5c5fb37_midnight_4.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e68ae6ec20f98d3d56a68df3dddbfc61d15f784394024dbb516c8f0fb5c5fb37_midnight_4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image9",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image10",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image16",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image17",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image18",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image19",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image20",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image21",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image22",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image23",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image24",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image26",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image27",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image28",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image29",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image30",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image31",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image32",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image33",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image34",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image35",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image36",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image37",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image38",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image39",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image40",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image41",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image42",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image43",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image44",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image45",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image46",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image47",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image48",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image49",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image50",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image51",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image52",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image53",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image54",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image55",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image56",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image57",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image58",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image59",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image60",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image61",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image62",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image63",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Image64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Image64",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/midnight_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2a168852d78fe7079e7cbb723c583dc9f0c601b0cb60566ca9edbe8e3c0806ab_midnight_5.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2a168852d78fe7079e7cbb723c583dc9f0c601b0cb60566ca9edbe8e3c0806ab_midnight_5.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New3DBox_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Dark Shoot.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "13b98ab429c693bf660148b445e24a2390947d4190b5a8d171b517ec15914be2_Dark Shoot.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/13b98ab429c693bf660148b445e24a2390947d4190b5a8d171b517ec15914be2_Dark Shoot.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Sound 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "6ee70967dbde39001225d3c6a8c379765a83e8e9af5b2192692cd7259f137aad_Sound 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Sound/6ee70967dbde39001225d3c6a8c379765a83e8e9af5b2192692cd7259f137aad_Sound 3.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Blip 6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "14f3d11f6dafa6bc689c719d3e2993cdb2c997d8c50f09dc0aeb869fddeca225_Blip 6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Blip/14f3d11f6dafa6bc689c719d3e2993cdb2c997d8c50f09dc0aeb869fddeca225_Blip 6.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/1up 6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9da37a1894248e4166fcad28c5f2729b5c363ac1238eb8641814930dddad493c_1up 6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/1up/9da37a1894248e4166fcad28c5f2729b5c363ac1238eb8641814930dddad493c_1up 6.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewPanelSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewPanelSprite",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1612,6 +2564,48 @@
     },
     {
       "folded": true,
+      "name": "PLAYER_STATE_TURN_LEFT",
+      "type": "string",
+      "value": "turn_left"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_TURN_RIGHT",
+      "type": "string",
+      "value": "turn_right"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_ATTACKING",
+      "type": "string",
+      "value": "attacking"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_PARRY_START",
+      "type": "string",
+      "value": "parry_start"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_PARRY_END",
+      "type": "string",
+      "value": "parry_end"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_HIT",
+      "type": "string",
+      "value": "hit"
+    },
+    {
+      "folded": true,
+      "name": "PLAYER_STATE_BLOCK_HIT",
+      "type": "string",
+      "value": "block_hit"
+    },
+    {
+      "folded": true,
       "name": "SLOW_LANE_BASE_SPEED",
       "type": "number",
       "value": 500
@@ -1710,6 +2704,30 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedprojectile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/billboard"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritebasedlighting"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/withthreejs"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspriteslider"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/sticker"
